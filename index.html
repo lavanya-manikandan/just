@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gommtha</title>
+<style>
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at center, #2b1d0e 0%, #0f0a05 70%);
+  font-family: 'Georgia', serif;
+  overflow: hidden;
+}
 
+h1 {
+  font-size: 90px;
+  letter-spacing: 10px;
+  color: #f4c27a;
+  text-shadow: 
+    0 0 10px rgba(244,194,122,0.6),
+    0 0 20px rgba(244,194,122,0.4),
+    0 0 40px rgba(255,140,0,0.3);
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 
+      0 0 5px rgba(244,194,122,0.5),
+      0 0 15px rgba(244,194,122,0.3);
+  }
+  to {
+    text-shadow: 
+      0 0 20px rgba(255,180,80,0.9),
+      0 0 40px rgba(255,140,0,0.6);
+  }
+}
+</style>
+</head>
+
+<body>
+  <h1>Gommtha</h1>
+</body>
+</html>
